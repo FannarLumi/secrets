@@ -42,6 +42,10 @@ int main() {
     vector<People> vecPeople;
     vecPeople.push_back(primero);
     int result = 0;
+    //DTS ES DAYS TO SHARE = DELAY
+    //DTF ES DAYS TO FORGET = FORGETY
+    //N ES EL DÍA MÁXIMO DE LA PRUEBA
+
     int tam = secret(vecPeople,2,4,6,1,1);
     for(auto i: vecPeople){
         result += 1;
